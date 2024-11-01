@@ -19,17 +19,20 @@ function procura(){
             let linha = document.createElement('tr')
         
             linha.innerHTML = `
+            <td><img src="${anime.images.jpg.image_url}"</td>
             <td>${anime.title}</td>
             <td>${anime.genres[0].name}<br>${anime.genres[1].name}<br>${anime.genres[2].name}</td>
             <td>${anime.synopsis}</td>
             <td>${anime.score}</td>
             <td>${anime.aired.string}</td>
             <td>${anime.rating}<td>
-            <td><img src="${anime.images.jpg.image_url}"<td>
             
             `
+            
     
             tabelaAnime.appendChild(linha)
+
+            
         })
 
     });
