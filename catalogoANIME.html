@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeDirectory</title>
+    <link rel="stylesheet" href="catalogoANIME.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <script src="catalogoANIME.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ADT
+            </div>
+            <div class="links">
+                <ul class="nav-itens">
+                    <li><a href="index.html">Home</a>
+                        
+                    </li>
+                    <li><a href="catalogoANIME.html">Search</a>
+                        
+                    </li>
+                    <li><a href="">Playlists</a>
+                        
+                    </li>
+                    <li><a href="anime-main/favorites.html">MY Recommendations</a>
+                       
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1 class="tituloDoSite">  
+            Anime Search
+            </h1>
+            
+            <input type="text" id="txAnimeProcurado">
+            <button type="button" id="btBusca">Procurar</button>
+        </div>
+    
+    
+      
+        
+        <table >            
+            <thead>
+                <th>Title:</th>
+                <th>Type:</th>
+                <th>Description:</th>
+                <th>Score:</th>
+                <th>Year:</th>
+                <th>Rating:</th>                
+            </thead>
+            <tbody id="tabelaAnime">
+                
+            </tbody>
+        </table>
+        
+    </main>
+</body>
+</html>

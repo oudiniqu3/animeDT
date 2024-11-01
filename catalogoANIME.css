@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body{
+    background-image:url('img/dhxug9q-140d87f2-76e6-4b34-b48e-160e6f6d457d copy.jpg');
+    background-size: cover;
+    font-size: 18px;
+    font-family: Oxanium; 
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+   
+}
+header{
+    padding: 10x;
+    background-color: aliceblue;
+    
+    
+
+}
+div{
+    padding: 20px;
+    border-bottom: 1mm ridge rgba(146, 220, 255, 0.6);
+    background-color: rgb(146, 220, 255);
+   
+
+}
+div>h1{
+    font-size: 70px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    color: black;
+    background-color: rgba(146, 220, 255,1);
+
+
+
+}
+.nav-itens{
+    list-style: none;
+    display: flex;
+    
+}
+.nav-itens>li>a{
+    padding-left:50px;
+    color: black;
+    text-decoration: none;
+}
+div.logo{
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Oxanium; 
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+
+}
+
+input{
+    border: 1px solid rgb(41, 86, 107);
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Oxanium;
+    padding-left: 10px;
+
+}
+button{
+    border: 1px solid rgb(41, 86, 107);
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Oxanium;
+    background-color: rgb(146, 220, 255);
+    
+}
+table{
+    border: 1px solid rgb(2, 0, 0);
+    border-spacing: 25px;
+    width: 1920px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Oxanium;
+    padding-left: 10px;
+    color: black;
+    padding:0cm;
+    background-color: rgba(146, 220, 255,0.7);
+}
