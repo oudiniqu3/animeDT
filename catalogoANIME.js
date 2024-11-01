@@ -20,11 +20,12 @@ function procura(){
         
             linha.innerHTML = `
             <td>${anime.title}</td>
-            <td>${anime.type}</td>
+            <td>${anime.genres[0].name}<br>${anime.genres[1].name}<br>${anime.genres[2].name}</td>
             <td>${anime.synopsis}</td>
             <td>${anime.score}</td>
-            <td>${anime.year}</td>
+            <td>${anime.aired.string}</td>
             <td>${anime.rating}<td>
+            <td><img src="${anime.images.jpg.image_url}"<td>
             
             `
     
